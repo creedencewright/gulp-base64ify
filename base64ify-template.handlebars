@@ -1,0 +1,9 @@
+{{#each images}}
+    .{{../prefix}}.{{../prefix}}-{{name}} {
+        {{#if ../injectSizes}}
+        width: {{size.width}}px;
+        height: {{size.height}}px;
+        {{/if}}
+        background: url(data:{{mime}};base64,{{{content}}});
+    }
+{{/each}}

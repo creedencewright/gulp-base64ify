@@ -1,0 +1,36 @@
+{
+  "name": "gulp-base64ify",
+  "version": "0.1.0",
+  "description": "takes images and creates a style file with base64-ified images in it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creedencewright/gulp-base64ify.git"
+  },
+  "keywords": [
+    "gulp",
+    "base64",
+    "png",
+    "image",
+    "style",
+    "css"
+  ],
+  "author": "Denis Smirnov <smv.denis@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creedencewright/gulp-base64ify/issues"
+  },
+  "homepage": "https://github.com/creedencewright/gulp-base64ify#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "gulp-util": "^3.0.7",
+    "handlebars": "^4.0.5",
+    "image-size": "^0.4.0",
+    "mime": "^1.3.4",
+    "path": "^0.12.7",
+    "through2": "^2.0.0"
+  }
+}
