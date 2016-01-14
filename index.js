@@ -6,7 +6,7 @@ var path           = require('path');
 var fs             = require('fs');
 var handlebars     = require('handlebars');
 
-var templateSource = fs.readFileSync('./base64ify-template.handlebars', 'utf8');
+var templateSource = fs.readFileSync(__dirname + '/base64ify-template.handlebars', 'utf8');
 
 var handler = function(opts) {
     var styleStream  = through2.obj();
